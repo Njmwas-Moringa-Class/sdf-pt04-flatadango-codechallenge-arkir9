@@ -26,7 +26,7 @@ function getAfilm(filmId) {
       btn.addEventListener("click", () => {
         let value = parseInt(document.getElementById("ticket-num").innerHTML  -= 1 )
         
-        document.getElementById("ticken-num").innerHTML = value;
+        document.getElementById("ticket-num").innerHTML = value;
       });
     });
 }
